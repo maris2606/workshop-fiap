@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--senão aparece popup de traduzir-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-css">Cadastro</h1>
+        <a href="https://www.alura.com.br/" id="link-header">alura</a>
+        <!-- 
+        botão não serve pra redirecionar, 
+        tem outras funcionalidades
+        -->
+    </header>
+
+    <main>
+
+        <!-- 
+        leitores de tela sabem identificar melhor
+        <h1>titulo</h1>
+        <h2>subtitulo</h2>
+        <h3>subtitulo</h3>
+        <h4>subtitulo</h4>
+        <h5>subtitulo</h5>
+        <h6>subtitulo</h6> 
+        -->
+        <img src="passarinho.jpeg" alt="foto de calopsitas" height="150px">
+
+
+        <form action="" method="post">
+            <label for="nome">nome:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="idade">idade:</label>
+            <input type="number" min="0" name="idade" id="idade">
+
+            <label for="nivel">nível:</label>
+            <select name="nivel" id="nivel">
+                <option value="estudante">estudante</option>
+                <option value="estagiario">estagiário</option>
+                <option value="junior">júnior</option>
+                <option value="senior">sênior</option>
+                <option value="calopsita">calopsita</option>
+            </select>
+
+            <input type="button" value="cadastrar">
+        </form>
+    </main>
+
+    <footer>
+        <h4>projeto tokio marine 2024</h4>
+        <h5>desenvolvido por <a id="link-footer" href="https://github.com/maris2606">maris2606</a></h5>
+    </footer>
+</body>
+
+</html>

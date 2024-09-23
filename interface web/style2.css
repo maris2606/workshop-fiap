@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto";
+}
+
+.header {
+    padding-block: 2vh;
+    margin-inline: 10vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px #2070f5 solid;
+}
+
+.links-container{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.links-container a {
+    color: #2070f5;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+}
