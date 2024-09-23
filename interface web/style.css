@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    padding: 15px;
+    background-color: rgb(169, 203, 232);
+}
+
+.titulo-css {
+    color:aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(34, 59, 81);
+}
+
+main {
+    padding: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+footer{
+    padding: 15px;
+    background-color: rgb(169, 203, 232);
+
+}
